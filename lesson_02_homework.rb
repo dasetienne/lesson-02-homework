@@ -30,8 +30,8 @@ def fizz_buzz_to(limit)
   
 end
 # Closes fizz_buzz_to function
-puts fizzbuzz (1)
-puts fizz_buzz_to (45)
+puts fizzbuzz(1)
+puts fizz_buzz_to(45)
 
 #Fix Broken Code
 
@@ -58,11 +58,6 @@ class Waitlist
     #Ensures that newest argument is placed at the end of the array
   end
 
-  def list
-    #Add method called list that displays the list array of all parties waiting for a table in order they were added
-    @list
-  end
-
   def seat
     #Add a method called "seat" that removes the first string from the list array and displays the new list
     @list.shift
@@ -71,10 +66,6 @@ class Waitlist
 end
 
 waitlist = Waitlist.new
-waitist = Waitlist.new
-waitlist = Waitlist.new
-waitlist = Waitlist.new
-
 
 puts waitlist.add_party("Hrubesch")
 puts waitlist.add_party("Beckenbauer")
